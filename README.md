@@ -1,6 +1,6 @@
 <div align="center">
   
-# VQM Replication of Experiments
+# Vision Transformer-Inspired Automated Vulnerability Repair (Replication of Experiments)
   
 </div>
 
