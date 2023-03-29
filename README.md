@@ -1,6 +1,6 @@
 <div align="center">
   
-# Vision Transformer-Inspired Automated Vulnerability Repair (Replication of Experiments)
+# Vision Transformer-Inspired Automated Vulnerability Repair <br> (Replication of Experiments)
   
 </div>
 
