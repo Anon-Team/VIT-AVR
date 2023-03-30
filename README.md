@@ -1,6 +1,6 @@
 <div align="center">
   
-# VIT-Inspired Automated Vulnerability Repair <br> (Replication of Experiments)
+# VIT-Inspired Automated Vulnerability Repair <br> (Reproduction of Experiments)
   
 </div>
 
@@ -21,11 +21,10 @@
   <summary></summary>
   <ol>
     <li>
-      <a href="#how-to-replicate">How to replicate</a>
+      <a href="#how-to-reproduce">How to reproduce</a>
         <ul>
           <li><a href="#environment-setup">Environment Setup</a></li>
-          <li><a href="#datasets">Datasets</a></li>
-          <li><a href="#replication-of-experiments">Replication of Experiments</a></li>
+          <li><a href="#reproduction-of-experiments">Reproduction of Experiments</a></li>
         </ul>
     </li>
     <li>
@@ -37,7 +36,7 @@
   </ol>
 </details>
 
-## How to replicate 
+## How to reproduce 
 
 ### Environment Setup
 <details open="open">
@@ -45,8 +44,8 @@
   
 First of all, clone this repository to your local machine and access the main dir via the following command:
 ```
-git clone TODO
-cd VQM
+git clone https://github.com/Anon-Team/VIT-AVR.git
+cd VIT-AVR
 ```
 
 Then, install the python dependencies via the following command:
@@ -64,16 +63,8 @@ cd ../..
 * <a href="https://www.python.org/downloads/release/python-397/">Python 3.9.7</a> is recommended, which has been fully tested without issues.
  
 </details>
-  
-### Datasets
-<details open="open">
-  <summary></summary>
-
-data...
-  
-</details>
  
-### Replication of Experiments
+### Reproduction of Experiments
   
   <details open="open">
     <summary></summary>
@@ -90,7 +81,7 @@ data...
   <details open="open">
     <summary></summary>
   
-  #### Reproduce Main Results (Section 4.5.1 in the paper)
+  #### Reproduce Section 4 - RQ1
   - VQM (proposed approach)
     * Inference
     ```
@@ -229,7 +220,7 @@ data...
   <details open="open">
     <summary></summary>
     
-  #### Ablation - Vulnerability Query Mask (Section 4.5.2-(1) in the paper)
+  #### Reproduce Section 4 - RQ2 (Ablation - VQ and VM)
   - Vul Mask Encoder + Vul Mask Decoder (proposed approach - VQM)
     * Inference
     ```
@@ -313,7 +304,7 @@ data...
   <details open="open">
     <summary></summary>
     
-  #### Ablation - Pre-training on Bug-fix Data (Section 4.5.2-(2) in the paper)
+  #### Reproduce Section 4 - RQ2 (Ablation - Pre-training on Bug-fix Data)
   - VQM (proposed approach)
     * Inference
     ```
@@ -428,7 +419,7 @@ data...
   </details>
     
 ## License 
-<a href="TODO">MIT License</a>
+<a href="https://github.com/Anon-Team/VIT-AVR/blob/main/LICENSE">MIT License</a>
 
 ## Citation
 ```bash
